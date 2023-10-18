@@ -1,0 +1,25 @@
+#personalProjects {
+  margin-top: 70px;
+  /* margin-left: 500px; */
+}
+
+#personalProjects h3 {
+  margin-bottom: 10px;
+  font-family: "Bellefair", serif;
+}
+
+.appLinks {
+  text-align: center;
+}
+
+.appLinks:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: lightslategrey;
+  color: black;
+  padding: 5px;
+}
+
+.appLinks a:hover {
+  color: black;
+}

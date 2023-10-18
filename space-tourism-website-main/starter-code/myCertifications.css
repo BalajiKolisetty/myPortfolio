@@ -1,0 +1,29 @@
+#myCertifications {
+  margin-top: 70px;
+  /* margin-left: 500px; */
+}
+
+#myCertifications h3 {
+  margin-bottom: 15px;
+  font-family: "Bellefair", serif;
+}
+
+.certificationName {
+  text-align: center;
+}
+
+.certificationName:hover {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: lightslategrey;
+  color: black;
+  padding: 5px;
+}
+
+.certificationName a:hover {
+  color: black;
+}
+
+.certificationName img {
+  background-color: lightyellow;
+}

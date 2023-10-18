@@ -1,0 +1,33 @@
+#skillSetContainer {
+  position: relative;
+  margin-top: 50px;
+}
+
+#skillSetRow1,
+#skillSetRow2,
+#skillSetRow3,
+#skillSetRow4,
+#skillSetRow5 {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.skillSet {
+  /* border: 1px solid white; */
+  margin: 20px;
+}
+
+.skillSet p {
+  font-size: 20px;
+  font-family: "Bellefair", serif;
+}
+
+.skillSet p:hover {
+  /* position: absolute; */
+  border: 1px solid;
+  color: white;
+  cursor: default;
+  /* margin: 5px; */
+}

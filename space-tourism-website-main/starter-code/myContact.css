@@ -1,0 +1,17 @@
+#contactLinksContainer {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+#contactLinksContainer img {
+  height: 150px;
+  width: 150px;
+  margin: 50px;
+  border-radius: 50%;
+}
+
+#contactLinksContainer img:hover {
+  padding: 10px;
+  background-color: lightgray;
+}

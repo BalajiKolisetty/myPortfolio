@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url("assets/destination/background-destination-desktop.jpg");
+}
+
+#destinationPickLine {
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 28px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#destinationPickLine h4 {
+  color: lightslategray;
+  font-weight: 1000;
+  display: inline-block;
+}
+
+#destinationContent {
+  display: flex;
+  margin-top: 25px;
+  /* border: 1px solid white; */
+}
+
+#planetImageBox img {
+  height: 400px;
+  width: 350px;
+  margin-left: 100px;
+}
+
+#destinationName {
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+#destinationName p {
+  font-family: "Bellefair", serif;
+  font-size: 60px;
+}
+
+#destinationDescription {
+  font-size: 19px;
+  font-family: "Barlow", sans-serif;
+}
+
+#destinationDetails {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+#otherDestinationLinks {
+  display: flex;
+}
+
+#otherDestinationLinks a {
+  margin-right: 40px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+}

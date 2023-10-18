@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url("assets/destination/background-destination-desktop.jpg");
+}
+
+#pageContent {
+  display: flex;
+}
+
+#technologyPickUpLine {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+#technologyInfo {
+  margin-top: 80px;
+}

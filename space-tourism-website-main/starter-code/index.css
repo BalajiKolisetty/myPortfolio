@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url("assets/destination/background-destination-desktop.jpg");
+}
+
+#outerContainer {
+  display: flex;
+}
+
+#logoBox img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightseagreen;
+  text-decoration: underline;
+}
+
+#headerSection {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#headerSection #logoBox {
+  float: left;
+  width: 50%;
+}
+
+#headerLinksBox {
+  margin-left: 60px;
+}
+
+#headerLinks {
+  margin: 15px;
+}
+
+#headerLinks a {
+  margin-left: 30px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+#homePageContent {
+  display: flex;
+  margin-top: 70px;
+}
+
+#descriptionBox {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+
+#descriptionBox #p1 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+}
+
+#descriptionBox h1 {
+  font-family: "Bellefair", serif;
+  font-size: 65px;
+}
+
+#descriptionBox #p2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+}
+
+#myImageBox {
+  margin-left: 100px;
+}
+
+#outerContainer img {
+  height: 400px;
+  width: 350px;
+  border-radius: 50%;
+}
+
+#experienceAndLocation {
+  display: flex;
+  margin-top: 60px;
+}
+
+#experience {
+  float: left;
+  width: 50%;
+}
+
+#experienceHeading,
+#locationHeading {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+#exactExperinece,
+#city {
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}

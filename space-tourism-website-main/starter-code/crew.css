@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url("assets/destination/background-destination-desktop.jpg");
+}
+
+#pageContent {
+  display: flex;
+}
+
+#crewMemberImage img {
+  height: 465px;
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+#crewPickUpLine {
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 28px;
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+#crewPickUpLine h4 {
+  color: lightslategray;
+  font-weight: 1000;
+  display: inline-block;
+}
+
+#crewDesignation {
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+
+#crewDesignation p {
+  color: lightslategray;
+}
+
+#crewName {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 56px;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+
+#aboutCrew {
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+}
+
+#aboutCrew p {
+  color: #d0d6f9;
+}
+
+#nextCircles {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+#nextCircles a {
+  border: 1px solid white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-right: 15px;
+  /* background-color: white; */
+}
+
+#nextCircles:hover {
+  color: lightslategray;
+}

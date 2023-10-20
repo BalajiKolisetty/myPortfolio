@@ -23,3 +23,15 @@
 .appLinks a:hover {
   color: black;
 }
+
+#projectCompletionStatus {
+  display: flex;
+  /* border: 1px solid white; */
+  height: 50px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+#finishedProjects, #inProcessProjects, #upComingProjects {
+  margin-left: 50px;
+}

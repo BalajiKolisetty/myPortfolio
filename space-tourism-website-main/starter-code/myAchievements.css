@@ -1,0 +1,28 @@
+#award1 {
+    display: flex;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#award1 img {
+    height: 200px;
+    width: 300px;
+}
+
+#awardName {
+    margin-left: 50px;
+}
+
+#awardName h1{
+    margin-top: 50px;
+}
+
+p {
+    font-family: "Bellefair", serif;
+}
+
+h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 50px;
+}
+

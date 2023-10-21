@@ -1,0 +1,21 @@
+#projectCompletionStatus {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    position: relative;
+}
+
+#projectCompletionStatus a {
+    margin: 50px;
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+p {
+    text-align: center;
+    font-family: "Bellefair", serif;
+    margin-top: 20px;
+    font-size: 80px;
+}

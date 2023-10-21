@@ -1,0 +1,25 @@
+#personalProjects {
+    position: relative;
+    margin-top: 100px;
+}
+
+#appLinksRow1,
+#appLinksRow2,
+#appLinksRow3 {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Bellefair", serif;
+    margin-left: 50px;
+}
+
+h3:hover {
+    border: 1px solid;
+    color: white;
+    cursor: default;
+}

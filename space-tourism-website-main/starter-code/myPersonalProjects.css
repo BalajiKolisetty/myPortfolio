@@ -1,0 +1,21 @@
+#projectCategories {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#projectCategories a {
+    margin-left: 100px;
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+p {
+    text-align: center;
+    margin-left: 90px;
+    font-family: "Bellefair", serif;
+    margin-top: 20px;
+    font-size: 80px;
+}
